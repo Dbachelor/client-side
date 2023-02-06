@@ -1,4 +1,4 @@
-export const url = "http://mfc-demo.us-east-1.elasticbeanstalk.com/"
+export const url = "http://mfc-demo.us-east-1.elasticbeanstalk.com"
 export const doPost = (setter, data, endpoint) => {
     fetch(`${url}${endpoint}`, {
 
