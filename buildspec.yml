@@ -12,7 +12,8 @@ phases:
   build:
     commands:
         # run build script
-        - npm run build
+        - npm install react-router-dom
+        - npm run-script build
      
 artifacts:
   # include all files required to run application
